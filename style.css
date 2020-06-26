@@ -1,0 +1,114 @@
+body{
+    background-color: aqua;
+    margin: 0;
+}
+img{
+    width:405px;
+    height:300px;
+}
+#welcome-section{
+    background-color: black;
+    margin-left: 0;
+    margin-right: 0;
+}
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:green;
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 65%;
+    font-size: 2rem;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+.navlink{
+    text-decoration: none;
+    margin-left: 3%;
+    color: yellow;
+
+    
+}
+
+.welcomeheading{
+    padding-top: 20%;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    color: cornsilk;
+    
+}
+.welcomesub{
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 12%;
+    color: white;
+    
+}
+#projects{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    background-color:#184A45FF;
+
+}
+.project-tile{
+    margin:5%;
+    border-radius: 2%;
+    background-color: grey;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration-color: none;
+    
+}
+button{
+    margin-left: 10%;
+    margin-top: 35%;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    border:none;
+    font-weight: 600;
+}
+.project-tile :hover{
+    background-color:white;
+    color: grey;
+    border-radius: 10px;
+   
+
+    
+}
+.projects{
+    padding-top:50px;
+    background-color:#184A45FF;
+    color:#FC766AFF;
+}
+.projectheadings{
+    text-align: center;
+}
+.tag{
+    color: white;
+}
+#contact{
+    background: linear-gradient(90deg,lightgreen,lightblue,lightblue );
+    padding :5%;
+    font-size: 2rem;
+    text-align: center;
+}
+.contact{
+    margin:10%;
+}
+#footer{
+    padding:5%;
+    background:grey;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
